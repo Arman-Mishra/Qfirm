@@ -1,0 +1,15 @@
+.wrapper {
+  width: 1526px;
+  height: 909px;
+  margin: auto;
+  padding: 53px;
+  background-color: var(--color-primary);
+}
+.nav_section {
+  width: 1135px;
+  height: 636px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

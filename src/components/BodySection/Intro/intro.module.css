@@ -1,0 +1,37 @@
+.wrapper {
+  margin: 172px auto 0px;
+  width: 1132px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vl {
+  border-top: 1px solid var(--color-grey);
+  width: 256px;
+  rotate: -90deg;
+}
+
+h1 {
+  font-size: 3.375rem;
+  color: var(--color-white);
+  font-weight: 600;
+  line-height: 5.451rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--color-white);
+  font-weight: 600;
+  line-height: 3.25rem;
+}
+
+p {
+  margin-top: 16px;
+  width: 475px;
+  color: var(--color-white);
+  font-size: 1.125rem;
+  font-weight: 500;
+  opacity: 0.3;
+  line-height: 1.828rem;
+}

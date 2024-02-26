@@ -1,0 +1,22 @@
+.wrapper {
+  width: 1139px;
+  height: 551px;
+  margin: 186px auto 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.h1 {
+  font-weight: 600;
+  font-size: 3.375rem;
+  line-height: 4.826rem;
+}

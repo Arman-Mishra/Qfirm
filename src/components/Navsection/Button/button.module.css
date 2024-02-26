@@ -1,0 +1,12 @@
+.contact_button {
+  width: 172px;
+  height: 47px;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-white);
+}
+
+.contact_button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.tile {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 0.875rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tile:hover {
+  opacity: 0.8;
+}
+
+.text {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  text-wrap: nowrap;
+  width: fit-content;
+  z-index: 10;
+  transform: translate(-50%, -90%);
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #fffbf2;
+}

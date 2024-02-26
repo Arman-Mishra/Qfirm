@@ -1,0 +1,15 @@
+.nav {
+  width: 431px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: var(--color-white);
+}
