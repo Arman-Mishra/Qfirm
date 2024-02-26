@@ -1,16 +1,16 @@
 .wrapper {
-  width: 1139px;
-  height: 551px;
+  width: 1137px;
+  height: 626px;
   margin: 186px auto 0px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 }
 
-.card_wrapper {
-  display: flex;
+.top_bar {
   width: 100%;
+  display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
@@ -20,4 +20,11 @@
   font-size: 3.375rem;
   line-height: 4.826rem;
   color: var(--color-white);
+}
+
+.card_wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
 }

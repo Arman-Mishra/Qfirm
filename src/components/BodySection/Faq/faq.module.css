@@ -1,0 +1,33 @@
+.wrapper {
+  width: 1140px;
+  height: 629px;
+  margin: 186px auto 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.accordion_wrapper {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.h1 {
+  font-weight: 600;
+  font-size: 3.375rem;
+  line-height: 4.826rem;
+  color: var(--color-white) !important;
+}
+
+.p {
+  margin-top: 16px;
+  width: 450px;
+  font-size: 1.125rem;
+  line-height: 1.828rem;
+  font-weight: 500;
+  color: var(--color-white);
+  opacity: 0.3;
+}

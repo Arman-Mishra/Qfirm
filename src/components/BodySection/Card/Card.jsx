@@ -1,15 +1,30 @@
 import React from "react";
+import classNames from "classnames";
 import styles from "./card.module.css";
 import { ReactComponent as GiftIcon } from "../../../assets/gift_icon.svg";
 import Button2 from "../../Navsection/Button/Button2";
-const Card = ({ children, showButton, img }) => {
+
+const Card = ({ children, text, showButton, img, selected }) => {
   return (
-    <div className={styles.card}>
+    <div
+      className={
+        selected
+          ? classNames(styles.card, styles.card_selected)
+          : classNames(styles.card)
+      }
+    >
       <div className={styles.card_img}>
         {img ? <img src={img} alt="profile_img" /> : <GiftIcon />}
       </div>
       <div className={styles.card_element}>
-        <h3>{children}</h3>
+        {text ? (
+          <>
+            <h3 className={styles.h3}>{children}</h3>
+            <p className={styles.text}>{text}</p>
+          </>
+        ) : (
+          <h3 className={styles.h3}>{children}</h3>
+        )}
       </div>
       <div className={styles.card_element}>
         {showButton ? (
@@ -19,9 +34,9 @@ const Card = ({ children, showButton, img }) => {
           </p>
         ) : (
           <p className={styles.p}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-            obcaecati amet porro cumque maiores, cupiditate reprehenderit quas
-            est placeat eius mollitia, rerum aut quaerat eligendi!
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, at
+            laboriosam officia hic dolor totam, nostrum ratione ducimus porro
+            corporis, consectetur tenetur? Dolorum, commodi.
           </p>
         )}
       </div>

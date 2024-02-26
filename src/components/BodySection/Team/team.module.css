@@ -1,18 +1,17 @@
 .wrapper {
-  width: 1139px;
-  height: 551px;
   margin: 186px auto 0px;
+  width: 1156px;
+  height: 425px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
-.card_wrapper {
+.chip_wrapper {
   display: flex;
-  width: 100%;
   justify-content: space-between;
-  align-items: flex-end;
+  flex-wrap: wrap;
 }
 
 .h1 {
